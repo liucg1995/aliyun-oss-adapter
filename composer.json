@@ -5,6 +5,7 @@
     "keywords": ["aliyun", "oss", "laravel", "storage"],
     "homepage": "https://github.com/aobozhang",
     "license": "MIT",
+    "version": "1.0.0",
     "require": {
       "php": ">=5.4.0",
       "league/flysystem": "~1.0",
