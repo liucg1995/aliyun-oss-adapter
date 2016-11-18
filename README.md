@@ -1,22 +1,22 @@
 
 # Use AliyunOss as Laravel Storage
 
-[![Latest Stable Version](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/v/stable)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter) [![Total Downloads](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/downloads)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter) [![Latest Unstable Version](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/v/unstable)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter) [![License](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/license)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter)
+[![Latest Stable Version](https://poser.pugx.org/liuchengguos/aliyun-oss-adapter/v/stable)](https://packagist.org/packages/liuchengguos/aliyun-oss-adapter) [![Total Downloads](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/downloads)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter) [![Latest Unstable Version](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/v/unstable)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter) [![License](https://poser.pugx.org/aobozhang/aliyun-oss-adapter/license)](https://packagist.org/packages/aobozhang/aliyun-oss-adapter)
 
 Aliyun oss driver for Laravel5.0+, also support flysystem adapter.
 
-### inspire by [orzcc/aliyun-oss](https://github.com/orzcc/aliyun-oss)  
+
 
 
 ## Usage
 
 ```php
 
-use Storage;
+ $request->file("image")->store("test");
 
 //...
 
-Strorage::[everything in doc]
+
 
 ```
 > more infomation 更多信息:
@@ -43,7 +43,7 @@ This service provider must be registered.
 
 'providers' => [
     ...,
-    Aobo\OSS\AliyunOssFilesystemServiceProvider::class,
+    Liuchengguos\OSS\AliyunOssFilesystemServiceProvider::class,
 ];
 ```
 
