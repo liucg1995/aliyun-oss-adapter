@@ -31,7 +31,7 @@ Aliyun oss driver for Laravel5.0+, also support flysystem adapter.
 
 This package can be installed through Composer.
 ```bash
-composer require aobozhang/aliyun-oss-adapter
+composer require liuchengguos/aliyun-oss-adapter
 ```
 
 ## Configuration
