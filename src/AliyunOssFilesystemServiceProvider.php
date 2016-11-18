@@ -1,11 +1,11 @@
 <?php
 
-namespace Aobo\OSS;
+namespace Liuchengguos\OSS;
 
 use Storage;
 use League\Flysystem\Filesystem;
 use OSS\OssClient;
-use Aobo\OSS\AliyunOssAdapter;
+use Liuchengguos\OSS\AliyunOssAdapter;
 use Illuminate\Support\ServiceProvider;
 
 class AliyunOssFilesystemServiceProvider extends ServiceProvider {

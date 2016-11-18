@@ -1,4 +1,4 @@
-<?php namespace Aobo\OSS;
+<?php namespace Liuchengguos\OSS;
 
 use OSS\OssClient;
 use OSS\Core\OssException;
